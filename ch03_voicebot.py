@@ -3,7 +3,7 @@ import streamlit as st
 # audiorecorder 패키지 추가
 from audiorecorder import audiorecorder
 # OpenAI 패키지 추가
-froem openai import OpenAI
+from openai import OpenAI
 # 파일 삭제를 위한 패키지 추가
 import os
 # 시간 정보를 위한 패키지 추가
