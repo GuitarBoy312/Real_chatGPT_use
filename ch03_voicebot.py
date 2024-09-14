@@ -13,6 +13,9 @@ from gtts import gTTS
 # 음원 파일 재생을 위한 패키지 추가
 import base64
 
+# OpenAI API 키 설정
+client = OpenAI(api_key=st.secrets["openai_api_key"])
+
 ##### 기능 구현 함수 #####
 def STT(audio):
     # 파일 저장
